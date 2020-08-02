@@ -1,0 +1,116 @@
+/* body{
+    background-color: rgb(208, 208, 226);
+} */
+.header{
+    background-image: url('../images/bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header p{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+.header li{
+    padding-left: 20%;
+    color: white;
+}
+.nav{
+    padding-left: 50%;
+    float:none;
+    padding-top: 3%;
+    padding-right: 2%;
+}
+a{
+    color: white;
+    padding-right: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: large;
+}
+a :hover{
+    color: green;
+    
+}
+h1{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    padding: 50px 40px 20px 10px;
+    
+}
+h2{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    
+}
+li{
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+.col-md-9{
+   padding-left: 60px;
+}
+.col-md-4{
+    border-width: thin;
+}
+.col-sm img{
+    border-radius: 50%;
+}
+.card-footer{
+    text-align: center;
+}
+.about-us{
+    background-color: lavender;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 120vh;
+   
+}
+.about-us p{
+    padding: 0px 50px 10px 50px;
+    color: black;
+    font-weight: normal;
+}
+.services{
+    
+    background-color: lavender;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 110vh;
+    
+}
+.services p{
+    padding: 0px 50px 10px 50px;
+    color: black;
+    font-weight: lighter;
+}
+.services b{
+    color: red;
+}
+b{
+    font-weight: bolder;
+}
+.contact-us{
+    background-color: lavender;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 30vh;
+    
+}
+.contact-us p{
+    color: black;
+    font-weight: lighter;
+}
+h2{
+    color: rgb(59, 146, 146);
+}
+span{
+    color:green;
+}
+hr { 
+    border-color: black; 
+} 

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ORDER</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+  <body>
+      <div class="container-fluid">
+       
+          <h1>MAKE ORDER</h1>
+          <form id="makeOrder">
+            
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <h2><label for="size">Pizza Size</label></h2>
+                      <select class="form-control" name="sizes" id="size">
+                        <option value="size">-size-</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        
+                      </select>
+                      <h2><label for="type">Type of Crust</label></h2>
+                      <select class="form-control" name="crusts" id="crust">
+                        <option value="type">-Type-</option>
+                        <option value="crispy">Crispy</option>
+                        <option value="stuffed">Stuffed</option>
+                        <option value="gluten">Gluten-free</option>
+                      
+                      </select>
+                      <h2><label for="toppings">Toppings</label></h2>
+                      <select class="form-control" name="toppings" id="top">
+                        <option value="toppings">-Toppings-</option>
+                        <option value="have">With Toppings</option>
+                        <option value="without">No Toppings</option>
+                      </select>
+                      <h2><label for="delivery">Delivery</label></h2>
+                      <select class="form-control" name="deliveries" id="del">
+                        <option value="delivery">-Delivery-</option>
+                        <option value="deliver">To be Delivered</option>
+                        <option value="pick">Pick Yourself</option>
+                      </select>
+                      <button type="submit" class="btn btn-primary" onclick="calculate()">Submit</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div id="output">
+      
+                  </div>
+              </div>
+            </div>
+          </form>
+          
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-migrate-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
